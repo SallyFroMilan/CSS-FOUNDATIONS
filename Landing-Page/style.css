@@ -5,19 +5,24 @@
 }
 
 .logo {
+    margin-left: 60px;
 }
 
 header {
     background-color: rgba(0, 0, 0, 0.952);
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     padding: 20px 0px;
 }
 
 header li {
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 30px;
+}
+
+.navbar {
+    margin-right: 250px;
 }
 
 li a {
