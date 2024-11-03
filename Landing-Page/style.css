@@ -63,8 +63,8 @@ a[href] {
 }
 
 .image-placeholder {
-    margin-top: -20px;
-    margin-right: 120px;
+    margin-top: -30px;
+    margin-right: 160px;
     border-radius: 20px;
     box-shadow: 10px 10px 50px 10px #3882F6;
     line-height: 0%;
@@ -81,4 +81,62 @@ button {
     box-shadow: 10px 10px 50px 10px #3882F6;
 }
 
- 
+main {
+    margin:300px;
+    margin-top: 30px;
+}
+
+.randominfos {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight:bolder;
+    margin-left: 200px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px
+}
+
+.flex-container div {
+    border: solid #3882F6;
+    border-radius: 30px;
+    width: 140px;
+    height: 140px;
+}
+
+p {
+    word-break: break-word;
+    width: 150px;
+}
+
+.sub1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.sub2 {
+    text-align: center;
+    margin-top: -57px;
+    margin-left: 215px;
+}
+
+.sub3 {
+    text-align: center;
+    margin-top: -58px;
+    margin-left: 401px;
+}
+
+.sub4 {
+    text-align: center;
+    margin-top: -55px;
+    margin-left: 588px;
+}
+
+.subtext ol {
+    list-style: none;
+}
