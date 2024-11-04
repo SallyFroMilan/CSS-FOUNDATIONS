@@ -124,10 +124,12 @@ p {
 .quote-container {
     background-color: #E5E7EB;
     margin-top: 150px;
-
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .quote {
