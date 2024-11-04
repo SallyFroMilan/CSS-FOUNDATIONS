@@ -1,11 +1,10 @@
-* {
+body {
     font-family: roboto;
     margin: 0;
-    padding: 0;
 }
 
 .logo {
-    margin-left: 100px;
+    margin-left: 125px;
     position: absolute;
     top: 0;
     margin-top: 10px;
@@ -15,7 +14,7 @@ header {
     background: rgb(0,0,0);
     background-image: linear-gradient(to right bottom, #000000, #000000, #070707d2, #424242ee, #fa5f30ea, #e9621ef8,#f8ca4c);
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 200px 0px;
 }
 
@@ -63,7 +62,7 @@ a[href] {
 }
 
 .image-placeholder {
-    margin-top: -30px;
+    margin-top: 0px;
     margin-right: 160px;
     border-radius: 20px;
     box-shadow: 10px 10px 50px 10px #3882F6;
@@ -82,7 +81,6 @@ button {
 }
 
 main {
-    margin:300px;
     margin-top: 30px;
 }
 
@@ -90,7 +88,7 @@ main {
     color: #1f2937;
     font-size: 36px;
     font-weight:bolder;
-    margin-left: 200px;
+    text-align: center;
 }
 
 .flex-container {
@@ -111,30 +109,12 @@ main {
 p {
     word-break: break-word;
     width: 150px;
+    font-weight: 500;
 }
 
-.sub1 {
+.sub1, .sub2, .sub3, .sub4 {
     text-align: center;
-    margin-top: 10px;
-    margin-left: 27px;
-}
-
-.sub2 {
-    text-align: center;
-    margin-top: -57px;
-    margin-left: 215px;
-}
-
-.sub3 {
-    text-align: center;
-    margin-top: -58px;
-    margin-left: 401px;
-}
-
-.sub4 {
-    text-align: center;
-    margin-top: -55px;
-    margin-left: 588px;
+    margin-top: 150px;
 }
 
 .subtext ol {
