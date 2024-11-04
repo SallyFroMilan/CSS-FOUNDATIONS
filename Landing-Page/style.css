@@ -133,18 +133,39 @@ p {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 35px;
     font-style: italic;
-
+    font-weight: 300;
     word-break: break-all;
     width: 777px;
+    margin-top: 80px;
+    margin-bottom: -70px;
 }
 
 .author {
     font-size: 30px;
     margin-top: 50px;
-
     padding: 50px;
     text-align-last: right;
-    width: 54.5vW;
+    width: 53vW;
 }
+
+h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.action-product {
+    color: #dbdfe2;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: -23px;
+}
+
+.action-button {
+    margin-top: -35px;
+    padding-left: 610px;
+}
+
