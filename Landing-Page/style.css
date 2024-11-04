@@ -120,3 +120,29 @@ p {
 .subtext ol {
     list-style: none;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+
+    word-break: break-all;
+    width: 777px;
+}
+
+.author {
+    font-size: 30px;
+    margin-top: 50px;
+
+    padding: 50px;
+    text-align-last: right;
+    width: 54.5vW;
+}
