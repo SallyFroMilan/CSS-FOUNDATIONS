@@ -142,12 +142,6 @@ button:hover {
     height: 200px;
 }
 
-p {
-    word-break: break-word;
-    width: 150px;
-    font-weight: 500;
-}
-
 .box img {
     width: 100%;
     height: 100%;
@@ -156,38 +150,37 @@ p {
 
 .sub, .sub2, .sub3, .sub4 {
     text-align: center;
-    margin-top: 150px;
-}
-
-.subtext ol {
-    list-style: none;
 }
 
 .quote-container {
     background-color: #E5E7EB;
-    margin-top: 150px;
-    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 230px;
+    margin-bottom: 170px;
+    padding-bottom: 30px;
+    border-color: #000000;
+    border-style:groove;
+    border-width:0.8;
 }
 
 .quote {
     font-size: 35px;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 180;
     word-break: break-all;
-    width: 777px;
+    width: 775px;
     margin-top: 80px;
-    margin-bottom: -70px;
 }
 
 .author {
     font-size: 30px;
-    margin-top: 50px;
-    padding: 50px;
+    font-style: italic;
+    margin-top: 0px;
+    padding-top: 20px;
     text-align-last: right;
     width: 53vW;
 }
