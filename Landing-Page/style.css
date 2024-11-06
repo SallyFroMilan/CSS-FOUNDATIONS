@@ -90,29 +90,47 @@ a[href] {
 button {
     background-color: #3882F6;
     color: white;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 600;
     border-radius: 7px;
     border-color: white;
     font-weight: 600;
     padding: 6px 29px 6px 29px;
+    cursor: pointer;
+    border: 2px solid #E8E8E8;
 }
 
 .button1 {
     box-shadow: 10px 10px 50px 10px #3882F6;
-    margin-left: 100px;
+    margin-left: 260px;
     margin-top: 8px;
 }
 
-.randominfos {
-    color: #1f2937;
-    font-size: 36px;
-    font-weight:bolder;
+button:hover {
+    transform: scale(1.10);
+}
+
+.infos {
+    color: hsl(43, 68%, 61%);
+    font-size: 22px;
+    font-weight: 400;
     text-align: center;
     margin-top: 40px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.treats {
+    color: rgb(95, 55, 55);
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .flex-container {
     display: flex;
+    flex-direction: row;
     margin-top: 40px;
     flex-direction: row;
     justify-content: center;
