@@ -186,22 +186,23 @@ button:hover {
 }
 
 .action-container {
-    background-color: #3882F6;
-    margin: 75px 210px 75px 210px;
+    background-color: hsl(43, 68%, 61%);
+    margin: 100px 210px 100px 210px;
     padding: 50px 100px 50px;
     border-radius: 8px;
+    border: 2px solid rgb(95, 55, 55);
 }
 
 h3 {
-    color: white;
+    color:  rgb(95, 55, 55);
     font-size: 22px;
     font-weight: 600;
     margin-top: 0px;
 }
 
 .action-product {
-    color: #dbdfe2;
-    font-size: 17px;
+    color:  rgb(95, 55, 55);
+    font-size: 18px;
     font-weight: 500;
     margin-top: -25px;
 }
