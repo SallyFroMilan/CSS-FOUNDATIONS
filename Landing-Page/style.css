@@ -188,7 +188,7 @@ h2 {
     justify-content: center;
     text-align: center; 
     margin-top: 230px;
-    margin-bottom: 170px;
+    margin-bottom: 120px;
     padding-bottom: 30px;
     border-color: #000000;
     border-style:groove;
@@ -215,7 +215,7 @@ h2 {
 
 .action-container {
     background-color: hsl(43, 68%, 61%);
-    margin: 100px 210px 100px 210px;
+    margin: 100px 210px 120px 210px;
     padding: 50px 100px 50px;
     border-radius: 8px;
     border: 2px solid rgb(95, 55, 55);
