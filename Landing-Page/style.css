@@ -67,17 +67,17 @@ a[href] {
 }
 
 .secondarytext {
-    color: hsl(43, 68%, 61%);
-    font-size: 22px;
+    color: hsl(43, 96%, 55%);
+    font-size: 24.4px;
     font-style: italic;
     font-weight: 500;
     margin-left: 165px;
     margin-top: 4px;
     word-break: break-word;
-    width: 333px;
+    width: 353px;
     text-align: center;
-    word-spacing: 1px;
-    letter-spacing: 3px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
 }
 
 .buddha {
