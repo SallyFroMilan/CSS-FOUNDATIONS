@@ -18,7 +18,7 @@ body {
   
 header {
     background: rgb(0,0,0);
-    background-image: linear-gradient(to right bottom, #000000,#070707d2, #3f8795, #c78c88, #f8dbd9);
+    background-image: linear-gradient(to right bottom,black,rgba(82, 80, 80, 0.301), #3882F6, #3f7d95, #c78c88,#d69792 );
     display: flex;
     justify-content: space-between;
     padding: 170px 0px;
